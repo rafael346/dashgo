@@ -94,11 +94,12 @@ export default function CreateUser() {
                 type='submit'
                 colorScheme='green'
                 isLoading={formState.isSubmitting}
-              >Salvar</Button>
+              >
+                Salvar
+              </Button>
             </HStack>
           </Flex>
         </Box>
-
       </Flex>
     </Box>
   )
